@@ -1,0 +1,35 @@
+{
+  "public": {
+    "default": {
+      "commerce-core-endpoint": "https://na1-sandbox.api.commerce.adobe.com/HtNtz9TQcZpP9DMNLKzfxf/graphql",
+      "commerce-endpoint": "https://na1-sandbox.api.commerce.adobe.com/HtNtz9TQcZpP9DMNLKzfxf/graphql",
+      "headers": {
+        "all": {
+          "Store": "default"
+        },
+        "cs": {
+          "ac-channel-id": "847b05aa-10fc-4203-aee2-5501a1be4f0e",
+          "ac-environment-id": "HtNtz9TQcZpP9DMNLKzfxf",
+          "ac-price-book-id": "west_coast_inc",
+          "ac-scope-locale": "en-US"
+        }
+      },
+      "analytics": {
+        "base-currency-code": "USD",
+        "environment": "Production",
+        "store-id": 1,
+        "store-name": "ACO Store",
+        "store-url": "https://main--aco-sandbox-storefront--BramBleys.aem.live/",
+        "store-view-id": 1,
+        "store-view-name": "Default Store View",
+        "website-id": 1,
+        "website-name": "Main Website"
+      },
+      "plugins": {
+        "picker": {
+          "rootCategory": "2"
+        }
+      }
+    }
+  }
+}
