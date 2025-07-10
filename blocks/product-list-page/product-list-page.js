@@ -76,6 +76,7 @@ export default async function decorate(block) {
     provider.render(ProductList, {
       routeProduct: (product) => rootLink(`/products/${product.urlKey}/${product.sku}`),
       ...categoryPathConfig,
+      minQueryLength: 0,
       slots: {
         ProductActions: (ctx) => {
           const actionsWrapper = document.createElement('div');
