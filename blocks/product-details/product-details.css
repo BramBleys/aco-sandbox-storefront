@@ -25,10 +25,21 @@
 
 .product-details__header {
   margin-bottom: var(--spacing-medium);
+
+    .pdp-header__title {
+        color: var(--colors-brand-main);
+        font-weight: bold;
+        font-size: 42px;
+    }
 }
 
 .product-details__price {
   margin-top: var(--spacing-medium);
+
+    .pdp-price__amount {
+        font-size: 36px;
+        color: #000;
+    }
 }
 
 .product-details__gallery .pdp-carousel {
