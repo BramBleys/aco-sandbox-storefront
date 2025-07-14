@@ -48,10 +48,11 @@
   --color-opacity-24: rgb(255 255 255 / 24%);
 
 
-  /* Atlas Copco styling*/
-  --color-ac-blue: #0099cc;
-  --colors-brand-main: rgb(0, 120, 161);
+  /* Atlas Copco styling */
+  --color-ac-blue: #09c;
+  --colors-brand-main: rgb(0 120 161);
 
+  /* Grid */
   --grid-1-columns: 4;
   --grid-1-margins: 0;
   --grid-1-gutters: 16px;
