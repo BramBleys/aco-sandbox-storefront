@@ -46,12 +46,6 @@
   --color-action-button-hover: var(--color-neutral-300);
   --color-opacity-16: rgb(255 255 255 / 16%);
   --color-opacity-24: rgb(255 255 255 / 24%);
-
-
-  /* Atlas Copco styling*/
-  --color-ac-blue: #0099cc;
-  --colors-brand-main: rgb(0, 120, 161);
-
   --grid-1-columns: 4;
   --grid-1-margins: 0;
   --grid-1-gutters: 16px;
@@ -170,7 +164,6 @@ body:not(.appear) {
 header {
   grid-row: 1;
   height: var(--nav-height);
-    margin-bottom: 50px;
 }
 
 main {
@@ -424,11 +417,6 @@ main .section.highlight {
 
 .dropin-input-date__icon {
   z-index: 2;
-}
-
-button.dropin-button.dropin-button--primary {
-    background-color: var(--colors-brand-main);
-    border-radius: 3px;
 }
 
 /* Layout: Columns */
